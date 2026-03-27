@@ -11,6 +11,7 @@ import Contact from "../../components/resume/contact";
 import { CgPhone } from "react-icons/cg";
 import { TfiEmail } from "react-icons/tfi";
 import { FaLine } from "react-icons/fa";
+import Navbar from "../../components/resume/navbar";
 
 const experiences = [
   {
@@ -285,28 +286,44 @@ export default function ResumePage() {
   }, []);
 
   return (
-    <div className="flex flex-col w-full p-10">
-      <div className="glow-orb w-[500px] h-[500px] top-[-100px] left-[-100px] bg-purple-600 opacity-[0.07]" />
-      <div className="glow-orb w-[400px] h-[400px] top-[60vh] right-[-80px] bg-indigo-500 opacity-[0.06]" />
-      <div className="glow-orb w-[300px] h-[300px] bottom-[10vh] left-[20%] bg-violet-500 opacity-[0.05]" />
+    <>
+      <Navbar />
 
-      <Introduce mounted={mounted} />
+      <div className="flex flex-col w-full p-10">
+        <div className="glow-orb w-[500px] h-[500px] top-[-100px] left-[-100px] bg-purple-600 opacity-[0.07]" />
+        <div className="glow-orb w-[400px] h-[400px] top-[60vh] right-[-80px] bg-indigo-500 opacity-[0.06]" />
+        <div className="glow-orb w-[300px] h-[300px] bottom-[10vh] left-[20%] bg-violet-500 opacity-[0.05]" />
 
-      <Experience experiences={experiences} />
+        <div id="introduce">
+          <Introduce mounted={mounted} />
+        </div>
 
-      <Skill skills={skills} />
+        <div id="experience">
+          <Experience experiences={experiences} />
+        </div>
 
-      <Projects projects={projects} />
+        <div id="skills">
+          <Skill skills={skills} />
+        </div>
 
-      <Education education={education} />
+        <div id="projects">
+          <Projects projects={projects} />
+        </div>
 
-      <Contact contact={contact} />
+        <div id="education">
+          <Education education={education} />
+        </div>
 
-      <div className="text-center pt-8 border-t border-[var(--border)]">
-        <p className="font-mono text-xs">
-          Thanapol Jai-uea · Full Stack Developer · 2026
-        </p>
+        <div id="contact">
+          <Contact contact={contact} />
+        </div>
+
+        <div className="text-center pt-8 border-t border-[var(--border)]">
+          <p className="font-mono text-xs">
+            Thanapol Jai-uea · Full Stack Developer · 2026
+          </p>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
