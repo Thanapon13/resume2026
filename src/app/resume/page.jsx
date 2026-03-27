@@ -223,6 +223,20 @@ const projects = [
       },
     ],
   },
+
+  {
+    name: "Project Resume 2026",
+    company: "Personal Project 2026",
+    desc: "Resume website for selling products",
+    tags: ["Next.js 15", "Tailwind CSS", "Git"],
+    features: [""],
+    links: [
+      {
+        label: "Git: resume2026",
+        url: "https://github.com/Thanapon13/resume2026.git",
+      },
+    ],
+  },
 ];
 
 const education = [
