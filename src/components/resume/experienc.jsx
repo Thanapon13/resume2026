@@ -5,7 +5,7 @@ import Section from "../../components/resume/section";
 export default function Experience({ experiences }) {
   return (
     <Section className="mb-20">
-      <p className="section-label text-[18px]">Work Experience</p>
+      <p className="section-label">Work Experience</p>
       <div className="flex flex-col gap-6">
         {experiences.map((exp, i) => (
           <div key={i} className="flex gap-5">

@@ -289,10 +289,12 @@ export default function ResumePage() {
     <>
       <Navbar />
 
-      <div className="flex flex-col w-full p-10">
-        <div className="glow-orb w-[500px] h-[500px] top-[-100px] left-[-100px] bg-purple-600 opacity-[0.07]" />
-        <div className="glow-orb w-[400px] h-[400px] top-[60vh] right-[-80px] bg-indigo-500 opacity-[0.06]" />
-        <div className="glow-orb w-[300px] h-[300px] bottom-[10vh] left-[20%] bg-violet-500 opacity-[0.05]" />
+      <div className="flex flex-col w-full p-10 relative">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10">
+          <div className="glow-orb w-[500px] h-[500px] top-[-100px] left-[-100px] bg-purple-600 opacity-[0.07]" />
+          <div className="glow-orb w-[400px] h-[400px] top-[60vh] right-[-80px] bg-indigo-500 opacity-[0.06]" />
+          <div className="glow-orb w-[300px] h-[300px] bottom-[10vh] left-[20%] bg-violet-500 opacity-[0.05]" />
+        </div>
 
         <div id="introduce">
           <Introduce mounted={mounted} />
