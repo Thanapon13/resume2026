@@ -163,8 +163,14 @@ const projects = [
     desc: "yojoies.com & yojosolar.com — Corporate & Solar product websites",
     tags: ["React (Vite)", "Tailwind CSS"],
     links: [
-      { label: "yojoies.com", url: "https://yojoies.com" },
-      { label: "yojosolar.com", url: "https://yojosolar.com" },
+      {
+        label: "yojoies.com",
+        url: "https://website-yojoies.vercel.app/ABOUTUS",
+      },
+      {
+        label: "yojosolar.com",
+        url: "https://website-yojo-solar.vercel.app/ABOUTUS",
+      },
     ],
   },
   {
