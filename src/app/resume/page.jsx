@@ -274,7 +274,7 @@ const contact = [
   },
   {
     id: 2,
-    title: "harukasenpais@gmail.com",
+    title: "thanapon.dev.work@gmail.com",
     icons: <TfiEmail />,
   },
 
