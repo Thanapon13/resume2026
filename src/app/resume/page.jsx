@@ -329,7 +329,7 @@ export default function ResumePage() {
 
         <div className="text-center pt-8 border-t border-[var(--border)]">
           <p className="font-mono text-xs">
-            Thanapol Jai-uea · Full Stack Developer · 2026
+            Thanapon Jaia-uea · Full Stack Developer · 2026
           </p>
         </div>
       </div>

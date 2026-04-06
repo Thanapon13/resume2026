@@ -25,10 +25,10 @@ export default function Introduce({ mounted }) {
               transition: "all 0.8s 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
             }}
           >
-            <span className="text-[var(--text)]">Thanapol</span>
+            <span className="text-[var(--text)]">Thanapon</span>
             <br />
             <span className="bg-gradient-to-r from-[var(--accent)] to-[var(--accent2)] bg-clip-text text-transparent">
-              Jai-uea
+              Jaia-uea
             </span>
           </h1>
 
