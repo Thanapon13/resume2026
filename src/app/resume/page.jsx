@@ -40,6 +40,7 @@ const skills = {
     "Material UI",
     "Vercel AI SDK",
     "Tone.js",
+    "Bootstrap",
   ],
   Backend: [
     "Node.js",
