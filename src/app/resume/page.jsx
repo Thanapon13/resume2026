@@ -23,8 +23,8 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company: "DEVDEVA Co., Ltd.",
-    duration: "4 Months",
-    period: "Jul 2023 - Nov 2023",
+    duration: "1 Years",
+    period: "Jul 2023 - Feb 2024",
   },
 ];
 
@@ -41,20 +41,9 @@ const skills = {
     "Vercel AI SDK",
     "Tone.js",
     "Bootstrap",
+    "ui.shadcn",
   ],
-  Backend: [
-    "Node.js",
-    "Express.js",
-    "Sequelize",
-    "pgvector",
-    "JWT",
-    "Bcrypt",
-    "Ollama",
-    "Transformers.js",
-    "Multer",
-    "Sharp",
-    "Nodemailer",
-  ],
+  Backend: ["Node.js", "Express.js", "Sequelize", "pgvector", "Ollama"],
   Database: ["PostgreSQL", "MySQL"],
   "DevOps & Tools": [
     "Docker",
@@ -69,10 +58,43 @@ const skills = {
     "Antigravity",
     "Visual Studio Code",
     "Termius",
+    "github",
   ],
 };
 
 const projects = [
+  {
+    name: "Asset Management System",
+    company: "DEVDEVA Co., Ltd.",
+    desc: "Enterprise-grade asset tracking & management system for hospital client",
+    tags: [
+      "React (Vite)",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Sequelize",
+      "MySQL",
+      "Microsoft SQL Server",
+      "Git",
+    ],
+    features: [
+      "QR Code & Barcode scanning",
+      "JWT-based authentication",
+      "Asset tracking & management",
+      "Report generation & printing",
+    ],
+    highlight: true,
+    links: [
+      {
+        label: "Git: assetManagement-Frontend",
+        url: "https://github.com/Thanapon13/assetManagement-Frontend.git",
+      },
+      {
+        label: "Git: assetManagement-Backend",
+        url: "https://github.com/Thanapon13/assetManagement-Backend.git",
+      },
+    ],
+  },
   {
     name: "Musical AI Platform",
     company: "Yojoies Technology",
@@ -90,7 +112,6 @@ const projects = [
       "Cloudinary",
       "Ollama",
     ],
-    highlight: true,
     features: [
       "Vector similarity search for semantic matching",
       "AI chord recommendation system (3,300+ patterns)",
@@ -174,37 +195,6 @@ const projects = [
       },
     ],
   },
-  {
-    name: "Asset Management System",
-    company: "DEVDEVA Co., Ltd.",
-    desc: "Enterprise-grade asset tracking & management system for hospital client",
-    tags: [
-      "React (Vite)",
-      "Tailwind CSS",
-      "Node.js",
-      "Express",
-      "Sequelize",
-      "MySQL",
-      "Microsoft SQL Server",
-      "Git",
-    ],
-    features: [
-      "QR Code & Barcode scanning",
-      "JWT-based authentication",
-      "Asset tracking & management",
-      "Report generation & printing",
-    ],
-    links: [
-      {
-        label: "Git: assetManagement-Frontend",
-        url: "https://github.com/Thanapon13/assetManagement-Frontend.git",
-      },
-      {
-        label: "Git: assetManagement-Backend",
-        url: "https://github.com/Thanapon13/assetManagement-Backend.git",
-      },
-    ],
-  },
 
   {
     name: "Project Ecommerce",
@@ -228,20 +218,6 @@ const projects = [
       {
         label: "Git: Ecommerce-Backend",
         url: "https://github.com/Thanapon13/ProjectGart-backend.git",
-      },
-    ],
-  },
-
-  {
-    name: "Project Resume 2026",
-    company: "Personal Project 2026",
-    desc: "Resume website for selling products",
-    tags: ["Next.js 15", "Tailwind CSS", "Git"],
-    features: [""],
-    links: [
-      {
-        label: "Git: resume2026",
-        url: "https://github.com/Thanapon13/resume2026.git",
       },
     ],
   },
