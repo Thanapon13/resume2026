@@ -92,7 +92,7 @@ const projects = [
     links: [
       {
         label: "Demo website",
-        url: "https://project-camping-2qehdjcg3-thanapons-projects.vercel.app/",
+        url: "https://project-camping-zeta.vercel.app/",
       },
       {
         label: "Git: Camping",
