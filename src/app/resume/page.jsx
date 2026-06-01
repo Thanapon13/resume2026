@@ -64,6 +64,44 @@ const skills = {
 
 const projects = [
   {
+    name: "Landmark Explorer",
+    company: "Personal Project",
+    desc: "Full-stack social platform for discovering and sharing landmarks across Thailand. Features real-time messaging, community reviews, and interactive maps.",
+    tags: [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "Prisma 7",
+      "PostgreSQL (Supabase)",
+      "Clerk Auth",
+      "Framer Motion",
+      "Shadcn UI",
+      "Leaflet Maps",
+      "Zod",
+    ],
+    features: [
+      "Real-time chat with Supabase Realtime",
+      "Community reviews & star ratings",
+      "Interactive map with location picker",
+      "Infinite scroll with server-side caching",
+      "Favorites & user profile system",
+      "Image upload via Supabase Storage",
+    ],
+    highlight: true,
+    links: [
+      {
+        label: "Demo website",
+        url: "https://project-camping-2qehdjcg3-thanapons-projects.vercel.app/",
+      },
+      {
+        label: "Git: Camping",
+        url: "https://github.com/Thanapon13/project_camping.git",
+      },
+    ],
+  },
+
+  {
     name: "Asset Management System",
     company: "DEVDEVA Co., Ltd.",
     desc: "Enterprise-grade asset tracking & management system for hospital client",
